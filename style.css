@@ -1,0 +1,32 @@
+:root{
+    --background: black;
+    --primary-color: rgb(71, 70, 70);
+    --secondary-color: rgb(162, 162, 162);
+    --text-primary-color: white;
+    --text-secondary-color: rgb(141, 221, 221);
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: var(--text-secondary-color);
+}
+.navbar{
+    border: 5px;
+    border-radius: 2000px;
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    min-height: 100vh;
+    padding: 10px;
+    background-color: var(--background);
+    color: var(--text-primary-color);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
